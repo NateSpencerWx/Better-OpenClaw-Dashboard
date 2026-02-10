@@ -253,7 +253,19 @@ Please ensure:
 
 ```bash
 # Try deleting node_modules and reinstalling
+
+# On macOS/Linux:
 rm -rf node_modules package-lock.json
+
+# On Windows (Command Prompt):
+# rmdir /s /q node_modules
+# del package-lock.json
+
+# On Windows (PowerShell):
+# Remove-Item -Recurse -Force node_modules
+# Remove-Item package-lock.json
+
+# Then reinstall and run:
 npm install
 npm run dev
 ```
