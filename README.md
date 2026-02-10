@@ -9,7 +9,7 @@ A modern web dashboard for managing [OpenClaw](https://openclaw.ai) — your per
 - **Sessions** — View and manage active sessions with filtering (active minutes, global, unknown)
 - **Usage & Costs** — Visualize daily costs with bar charts, token breakdowns, and insights (top model, cache hit rate, error rate)
 - **Configuration** — Browse and edit all settings with info-circle tooltips explaining each option
-- **Gateway Auto-Detection** — Automatically detects when the OpenRouter gateway comes online (polls every 5 seconds)
+- **Gateway Auto-Detection** — Automatically detects when the OpenClaw gateway comes online (polls every 5 seconds)
 
 ## Getting Started
 
