@@ -1,0 +1,19 @@
+{
+  "name": "better-openclaw-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "lit": "^3.3.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
